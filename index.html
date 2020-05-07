@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Угадай мелодию 8 марта!</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+</head>
+<body>
+
+    <main class="wrap">
+
+        <div class="logo">
+            Угадай Мелодию
+        </div>
+
+        <div class="group">
+
+            <div class="line">
+                <div class="catName color_1">                    
+                    Эти песни знают все                    
+                </div>
+
+                <div id="note_1_1" class="note color_1">
+
+                    <div class="off">
+                        <i class="fab fa-itunes-note"></i>
+                        <p>10 баллов</p>
+                    </div>
+
+                    <div class="on" onclick="offOn_1();">                        
+                        <i class="fas fa-play"></i>
+                        <audio class="audio" src="audio/1_1.mp3"></audio>
+                    </div>
+
+                </div>
+
+                <div id="note_1_2" class="note color_1">
+
+                    <div class="off">
+                        <i class="fab fa-itunes-note"></i>
+                        <p>20 баллов</p>
+                    </div>
+
+                    <div class="on" onclick="offOn_2();">                        
+                        <i class="fas fa-play"></i>
+                        <audio class="audio" src="audio/1_2.mp3"></audio>
+                    </div>
+                      
+                </div>
+
+                <div id="note_1_3" class="note color_1">
+
+                    <div class="off">
+                        <i class="fab fa-itunes-note"></i>
+                        <p>30 баллов</p>
+                    </div>
+
+                    <div class="on" onclick="offOn_3();">                        
+                        <i class="fas fa-play"></i>
+                        <audio class="audio" src="audio/1_3.mp3"></audio>
+                    </div>
+
+                </div>
+
+                <div id="note_1_4" class="note color_1">
+                    <div class="off">
+                        <i class="fab fa-itunes-note"></i>
+                        <p>40 баллов</p>
+                    </div>
+
+                    <div class="on" onclick="offOn_4();">                        
+                        <i class="fas fa-play"></i>
+                        <audio class="audio" src="audio/1_4.mp3"></audio>
+                    </div>            
+                </div>
+
+                <div id="note_1_5" class="note color_1">
+                    <div class="off">
+                        <i class="fab fa-itunes-note"></i>
+                        <p>50 баллов</p>
+                    </div>
+
+                    <div class="on" onclick="offOn_5();">                        
+                        <i class="fas fa-play"></i>
+                        <audio class="audio" src="audio/1_5.mp3"></audio>
+                    </div> 
+                </div>
+                
+            </div>
+
+            <div class="line">
+                <div class="catName color_2">
+                    Классика жанра
+                </div>
+                
+                <div id="note_2_1" class="note color_2">
+                    <div class="off">
+                        <i class="fab fa-itunes-note"></i>
+                        <p>10 баллов</p>
+                    </div>
+
+                    <div class="on" onclick="offOn_6();">                        
+                        <i class="fas fa-play"></i>
+                        <audio class="audio" src="audio/2_1.mp3"></audio>
+                    </div> 
+                </div>
+
+                <div id="note_2_2" class="note color_2">
+                    <div class="off">
+                        <i class="fab fa-itunes-note"></i>
+                        <p>20 баллов</p>
+                    </div>
+
+                    <div class="on" onclick="offOn_7();">                        
+                        <i class="fas fa-play"></i>
+                        <audio class="audio" src="audio/2_2.mp3"></audio>
+                    </div>             
+                </div>
+
+                <div id="note_2_3" class="note color_2">
+                    <div class="off">
+                        <i class="fab fa-itunes-note"></i>
+                        <p>30 баллов</p>
+                    </div>
+
+                    <div class="on" onclick="offOn_8();">                        
+                        <i class="fas fa-play"></i>
+                        <audio class="audio" src="audio/2_3.mp3"></audio>
+                    </div> 
+                </div>
+
+                <div id="note_2_4" class="note color_2">
+                    <div class="off">
+                        <i class="fab fa-itunes-note"></i>
+                        <p>40 баллов</p>
+                    </div>
+
+                    <div class="on" onclick="offOn_9();">                        
+                        <i class="fas fa-play"></i>
+                        <audio class="audio" src="audio/2_4.mp3"></audio>
+                    </div>               
+                </div>
+
+                <div id="note_2_5" class="note color_2">
+                    <div class="off">
+                        <i class="fab fa-itunes-note"></i>
+                        <p>50 баллов</p>
+                    </div>
+
+                    <div class="on" onclick="offOn_10();">                        
+                        <i class="fas fa-play"></i>
+                        <audio class="audio" src="audio/2_5.mp3"></audio>
+                    </div> 
+                </div>
+
+            </div>
+
+            <div class="line">
+                <div class="catName color_3">
+                    Песни о женщинах
+                </div>
+                
+                <div id="note_3_1" class="note color_3">
+                    <div class="off">
+                        <i class="fab fa-itunes-note"></i>
+                        <p>10 баллов</p>
+                    </div>
+
+                    <div class="on" onclick="offOn_11();">                        
+                        <i class="fas fa-play"></i>
+                        <audio class="audio" src="audio/3_1.mp3"></audio>
+                    </div>  
+                </div>
+
+                <div id="note_3_2" class="note color_3">
+                    <div class="off">
+                        <i class="fab fa-itunes-note"></i>
+                        <p>20 баллов</p>
+                    </div>
+
+                    <div class="on" onclick="offOn_12();">                        
+                        <i class="fas fa-play"></i>
+                        <audio class="audio" src="audio/3_2.mp3"></audio>
+                    </div> 
+                </div>
+
+                <div class="note color_3">
+                    <div id="note_3_3" class="note color_3">
+                        <div class="off">
+                            <i class="fab fa-itunes-note"></i>
+                            <p>30 баллов</p>
+                        </div>
+    
+                        <div class="on" onclick="offOn_13();">                        
+                            <i class="fas fa-play"></i>
+                            <audio class="audio" src="audio/3_3.mp3"></audio>
+                        </div> 
+                    </div>            
+                </div>
+
+                <div class="note color_3">
+                    <div id="note_3_4" class="note color_3">
+                        <div class="off">
+                            <i class="fab fa-itunes-note"></i>
+                            <p>40 баллов</p>
+                        </div>
+    
+                        <div class="on" onclick="offOn_14();">                        
+                            <i class="fas fa-play"></i>
+                            <audio class="audio" src="audio/3_4.mp3"></audio>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="note color_3">
+                    <div id="note_3_5" class="note color_3">
+                        <div class="off">
+                            <i class="fab fa-itunes-note"></i>
+                            <p>50 баллов</p>
+                        </div>
+    
+                        <div class="on" onclick="offOn_15();">                        
+                            <i class="fas fa-play"></i>
+                            <audio class="audio" src="audio/3_5.mp3"></audio>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="line">
+                <div class="catName color_4">
+                    Вызов самой себе
+                </div>
+                
+                <div class="note color_4">
+                    <div id="note_4_1" class="note color_4">
+                        <div class="off">
+                            <i class="fab fa-itunes-note"></i>
+                            <p>10 баллов</p>
+                        </div>
+    
+                        <div class="on" onclick="offOn_16();">                        
+                            <i class="fas fa-play"></i>
+                            <audio class="audio" src="audio/4_1.mp3"></audio>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="note color_4">
+                    <div id="note_4_2" class="note color_4">
+                        <div class="off">
+                            <i class="fab fa-itunes-note"></i>
+                            <p>20 баллов</p>
+                        </div>
+    
+                        <div class="on" onclick="offOn_17();">                        
+                            <i class="fas fa-play"></i>
+                            <audio class="audio" src="audio/4_2.mp3"></audio>
+                        </div>
+                    </div>               
+                </div>
+
+                <div class="note color_4">
+                    <div id="note_4_3" class="note color_4">
+                        <div class="off">
+                            <i class="fab fa-itunes-note"></i>
+                            <p>30 баллов</p>
+                        </div>
+    
+                        <div class="on" onclick="offOn_18();">                        
+                            <i class="fas fa-play"></i>
+                            <audio class="audio" src="audio/4_3.mp3"></audio>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="note color_4">
+                    <div id="note_4_4" class="note color_4">
+                        <div class="off">
+                            <i class="fab fa-itunes-note"></i>
+                            <p>40 баллов</p>
+                        </div>
+    
+                        <div class="on" onclick="offOn_19();">                        
+                            <i class="fas fa-play"></i>
+                            <audio class="audio" src="audio/4_4.mp3"></audio>
+                        </div>
+                    </div>               
+                </div>
+
+                <div class="note color_4">
+                    <div id="note_4_5" class="note color_4">
+                        <div class="off">
+                            <i class="fab fa-itunes-note"></i>
+                            <p>50 баллов</p>
+                        </div>
+    
+                        <div class="on" onclick="offOn_20();">                        
+                            <i class="fas fa-play"></i>
+                            <audio class="audio" src="audio/4_5.mp3"></audio>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <script src="js/fontawesome.js"></script>
+    <script src="js/index.js"></script>
+    
+</body>
+</html>
